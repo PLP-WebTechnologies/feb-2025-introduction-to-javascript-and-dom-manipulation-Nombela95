@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1 id="main-title">DOM Manipulation Demo</h1>
+    </header>
+
+    <main class="container">
+        <section class="controls">
+            <button id="change-text-btn" class="btn">Change Text</button>
+            <button id="change-style-btn" class="btn">Change Styles</button>
+            <button id="add-element-btn" class="btn">Add Element</button>
+            <button id="remove-element-btn" class="btn">Remove Element</button>
+            <button id="toggle-dark-mode" class="btn">Toggle Dark Mode</button>
+        </section>
+
+        <section class="content">
+            <article id="target-article" class="article">
+                <h2>Original Content</h2>
+                <p>This is the initial content that will be manipulated.</p>
+                <ul id="list">
+                    <li>First item</li>
+                    <li>Second item</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p id="footer-text">© 2025 DOM Manipulation Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
